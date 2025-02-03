@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    & h1{
+        font-size: 2em;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+    & .menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        & a{
+            margin-bottom: 1em;
+            text-decoration: none;
+            color: white;
+            background: #ccc;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+    }
+}
